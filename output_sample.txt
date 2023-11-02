@@ -1,0 +1,72 @@
+python3 main.py
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/11/01 22:41:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
++----+-----+----------+
+|year|month|passengers|
++----+-----+----------+
+|1949|  Jan|       112|
+|1949|  Feb|       118|
+|1949|  Mar|       132|
+|1949|  Apr|       129|
+|1949|  May|       121|
+|1949|  Jun|       135|
+|1949|  Jul|       148|
+|1949|  Aug|       148|
+|1949|  Sep|       136|
+|1949|  Oct|       119|
+|1949|  Nov|       104|
+|1949|  Dec|       118|
+|1950|  Jan|       115|
+|1950|  Feb|       126|
+|1950|  Mar|       141|
+|1950|  Apr|       135|
+|1950|  May|       125|
+|1950|  Jun|       149|
+|1950|  Jul|       170|
+|1950|  Aug|       170|
++----+-----+----------+
+only showing top 20 rows
+
++----+-----+----------+
+|year|month|passengers|
++----+-----+----------+
+|1949|  Jan|       112|
+|1949|  Feb|       118|
+|1949|  Mar|       132|
+|1949|  Apr|       129|
+|1949|  May|       121|
+|1949|  Jun|       135|
+|1949|  Jul|       148|
+|1949|  Aug|       148|
+|1949|  Sep|       136|
+|1949|  Oct|       119|
+|1949|  Nov|       104|
+|1949|  Dec|       118|
+|1950|  Jan|       115|
+|1950|  Feb|       126|
+|1950|  Mar|       141|
+|1950|  Apr|       135|
+|1950|  May|       125|
+|1950|  Jun|       149|
+|1950|  Jul|       170|
+|1950|  Aug|       170|
++----+-----+----------+
+only showing top 20 rows
+
++----+----------------+
+|year|total_passengers|
++----+----------------+
+|1949|            1520|
+|1950|            1676|
+|1951|            2042|
+|1952|            2364|
+|1953|            2700|
+|1954|            2867|
+|1955|            3408|
+|1956|            3939|
+|1957|            4421|
+|1958|            4572|
+|1959|            5140|
+|1960|            5714|
++----+----------------+
